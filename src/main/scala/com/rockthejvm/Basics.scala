@@ -11,7 +11,7 @@ object Basics extends App {
   // strings and string operations
   val aString = "I love Scala"
   val aComposedString = "I" + " " + "love" + " " + "Scala"
-  //interpolation -> als je begint met s" dan kan je een andere variable/value injecten in de string
+  //interpolation -> als je begint met s" dan kan je een andere variable/value injecteren in de string
   val anInterpolatedString = s"The meaning of life is $meaningOfLife"
 
   // expressions
@@ -38,7 +38,7 @@ object Basics extends App {
   // define a function
   def myFunction(x: Int, y: String): String = y + " " + x
 
-  //een function kan zonder acolades als het maar 1 regel/statement is, maar je gebruikt haken als het er meer zijn
+  //een function kan zonder accolades als het maar 1 regel/statement is, maar je gebruikt haken als het er meer zijn
   def myFunctionWithCodeBlock(x: Int, y: String): String = {
     y + " " + x
   }
